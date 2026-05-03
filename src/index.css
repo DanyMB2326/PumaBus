@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #002754;
+  --color-primary-container: #003d7c;
+  --color-on-primary-container: #81aaf0;
+  
+  --color-secondary: #7a5900;
+  --color-secondary-container: #fec33b;
+  --color-on-secondary-container: #6f5100;
+  
+  --color-surface: #fbf8fe;
+  --color-surface-dim: #dcd9de;
+  --color-surface-bright: #fbf8fe;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f2f8;
+  --color-surface-container: #f0edf2;
+  --color-surface-container-high: #eae7ed;
+  --color-surface-container-highest: #e4e1e7;
+  
+  --color-on-surface: #1b1b1f;
+  --color-on-surface-variant: #434750;
+  
+  --color-outline: #737781;
+  --color-outline-variant: #c3c6d2;
+  
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+
+  --radius-xl: 1.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans;
+    -webkit-tap-highlight-color: transparent;
+  }
+}

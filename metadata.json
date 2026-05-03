@@ -1,0 +1,6 @@
+{
+  "name": "RUTA PUMA",
+  "description": "Real-time transit tracker for Ciudad Universitaria UNAM, providing live maps and route schedules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
